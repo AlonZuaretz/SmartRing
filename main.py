@@ -8,8 +8,10 @@ import numpy as np
 
 
 ring_ID = 'Ring ID: F5:B5:7A:68:8F:87\n'
-path = 'C:/Users/alonz/OneDrive - Technion/תואר/סמסטר 6/פרויקט/project ' \
-       '- Stress Detection with a Smart Ring/Ring Samples/MMDataF5B57A688F87_6.txt'
+path = 'C:\Users\yossi\OneDrive - Technion\סמסטר 6\פרויקט א\project - Stress Detection with a Smart Ring\Ring Samples\MMDataF5B57A688F87_6.txt'
+#path = 'C:/Users/alonz/OneDrive - Technion/תואר/סמסטר 6/פרויקט/project ' \
+#      '- Stress Detection with a Smart Ring/Ring Samples/MMDataF5B57A688F87_6.txt'
+
 f = open(path, 'r')
 lines = f.readlines()
 f.close()
